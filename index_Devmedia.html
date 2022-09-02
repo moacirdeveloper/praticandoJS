@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_Dev.css">
+    <title>Praticando HTML, CSS e JS</title>
+</head>
+<body>
+
+    <div class="container">
+        <!--HEADER-->
+        <div class="header">
+            <h2>Praticando JS</h2>
+        </div>
+        <!--MENU-->
+        <div class="menu">
+
+            <div>
+                <span>HOME</span>
+            </div>
+            
+            <div class="subMenu" >
+                <span onclick="exibirNoticias()">EXIBIR NOTICIAS</span>    
+                <span onclick="cadastrarNoticia()">CADASTRAR NOTICIAS</span>
+                <input id="itemBusca" type="search" placeholder="Digite o título">
+                <input onclick="buscarNoticias()" type="button" value="Buscar">
+            </div>
+
+        </div>
+        <!--CONTEUDO-->
+        <div class="aside">
+
+            <!--
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Titulo</th>
+                            <th>Noticia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        
+                    </tbody>
+                </table>
+
+            -->
+
+            <!--
+                <div class="itemNoticia">
+                <h4>SEM NOTICIAS</h4>
+            </div>
+            -->
+        
+            <!--
+            <form id="idCadastrar" name="nameCadastrar" frmaction="#">
+                <input type="text" placeholder="Digite o titulo da noticia">
+                <textarea name="notica" id="" cols="30" rows="10" placeholder="Entre com a noticia"></textarea>
+                <input type="button" value="Cadastrar">
+            </form>
+            -->
+
+        </div>
+        <!--FOOTER-->
+        <div class="footer">
+            <p>@todos os direitos reservados</p>
+            <p>contato@contado.com.br</p>
+        </div>
+
+    </div>
+
+    <script src="js/app_devmedia.js"></script>
+    
+</body>
+</html>
